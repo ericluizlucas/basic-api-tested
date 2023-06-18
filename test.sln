@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{BBA7085A-226F-4B07-ACD1-098825C883C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api", "api\minhaapi.api\api.csproj", "{E49C758E-CEFA-49C4-98B2-95999082CCE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9D16FFB3-C544-4E37-BB50-6E0D8D4C9CEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "minhaapi.tests", "tests\minhaapi.tests\minhaapi.tests.csproj", "{89DDE617-44AF-4AD2-AC7D-889E48905B31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E49C758E-CEFA-49C4-98B2-95999082CCE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E49C758E-CEFA-49C4-98B2-95999082CCE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E49C758E-CEFA-49C4-98B2-95999082CCE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E49C758E-CEFA-49C4-98B2-95999082CCE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89DDE617-44AF-4AD2-AC7D-889E48905B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89DDE617-44AF-4AD2-AC7D-889E48905B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89DDE617-44AF-4AD2-AC7D-889E48905B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89DDE617-44AF-4AD2-AC7D-889E48905B31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E49C758E-CEFA-49C4-98B2-95999082CCE3} = {BBA7085A-226F-4B07-ACD1-098825C883C0}
+		{89DDE617-44AF-4AD2-AC7D-889E48905B31} = {9D16FFB3-C544-4E37-BB50-6E0D8D4C9CEB}
+	EndGlobalSection
+EndGlobal
